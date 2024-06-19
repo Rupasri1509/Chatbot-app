@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    font-size: 36px;
+    color: #333; /* Dark color for the title */
+}
+
+.title p {
+    font-size: 18px;
+    color: #666; /* Darker color for the subtitle */
+}
+
+.chat {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #fff; /* White background */
+}
+
+.chat-box {
+    padding: 10px;
+}
+
+.user-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 20px; /* Rounded input box */
+    border: 2px solid #007bff; /* Blue border */
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+#send-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Rounded button */
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#send-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.message-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.user-message-container {
+    justify-content: flex-start;
+}
+
+.bot-message-container {
+    justify-content: flex-end;
+}
+
+.message {
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px 15px; /* Increased padding */
+    margin-bottom: 5px;
+    max-width: 70%; /* Limit message width */
+}
+
+.user-message {
+    background-color: #007bff; /* Blue color for user messages */
+    color: #fff;
+}
+
+.bot-message {
+    background-color: #4caf50; /* Green color for bot messages */
+    color: #fff;
+}
+
+.typing {
+    color: #07060699; /* Light gray color for typing indicator */
+}
